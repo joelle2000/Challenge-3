@@ -1,0 +1,48 @@
+body{
+	background-color: #21272B;
+	font-family: arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{
+	color: #ffffff;
+	font-size: 48pt;
+}
+#weather{
+	background-color: #F2F2F2;
+	font-size: 24pt;
+	width: 76%;
+	padding: 2%;
+	text-align: center;
+	margin: 30px 0px 30px 0px;
+}
+#myMap{
+    width: 80%;
+    height: 500px;
+}
+
+@media only screen and (max-width: 900px ){
+	h1{
+		font-size: 42pt;
+	}
+	#weather{
+		width: 96%;
+	}
+	#myMap{
+	    width: 100%;
+	}
+}
+@media only screen and (max-width: 650px ){
+	h1{
+		font-size: 36pt;
+	}
+}
+@media only screen and (max-width: 500px ){
+	h1{
+		font-size: 24pt;
+	}
+	#weather{
+		font-size: 14pt;
+	}
+}
